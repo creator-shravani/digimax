@@ -1,0 +1,132 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1c1229;
+}
+
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #131313;
+    color: #fff;
+}
+
+img{
+    height: 3rem;
+}
+
+a{
+    text-decoration: none;
+    margin: 1.5rem;
+    color: #fff;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#btn{
+    padding: 0.5rem 2rem;
+    border-radius: 0.8rem;
+    background-image: linear-gradient(to right, rgb(221, 114, 253),pink,rgb(243, 187, 83));
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+#hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #1c1229;
+    color: White;
+}
+
+#btn1{
+    border-radius: 0.8rem;
+    border:  3px solid rgb(243, 136, 211) ;
+    background-color: #131313;
+    color: #fff;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+.btn{
+    padding: 0.5rem 2rem;
+    border-radius: 0.8rem;
+    background-image: linear-gradient(to right, rgb(221, 114, 253),pink,rgb(243, 187, 83));
+}
+
+.btn2{
+    padding: 0.5rem 2rem;
+    border-radius: 0.8rem;
+    background-color: transparent;
+    color: white;
+
+}
+
+.btn2:hover{
+    background-image:linear-gradient(to right, rgb(221, 114, 253),pink,rgb(243, 187, 83)) ;
+    color: black;
+}
+
+#hero .btn{
+    border-radius: 0.8rem;
+    margin: 0.5rem;
+    display: flex;
+
+}
+
+#lower{
+    color: #fff;  
+    padding: 1rem;  
+    border-style: solid;
+    box-shadow: 1rem 1rem 1rem ;
+}
+
+.img{
+    width: 12rem;
+}
+
+#lower .row{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#who h5{
+    color: pink;
+    font-size: 1rem;
+}
+
+#who p{
+    color: #fff;
+    font-size: 2rem;
+}
+
+#who .paragraph{
+    font-size: 1rem;
+} 
+
+#who {
+    border-radius: 0.8rem;
+}
+
+#value{
+    height: 100vh;
+    color: white;
+    padding: 2rem;
+}
+#value h6{
+    color: pink;
+}
+
+#value p{
+    color: rgba(255, 255, 255, 0.493);
+}
