@@ -85,8 +85,7 @@ a{
 }
 
 #lower{
-    color: #fff;  
-    padding: 1rem;  
+    color: #fff;    
     border-style: solid;
     box-shadow: 1rem 1rem 1rem ;
 }
@@ -118,8 +117,9 @@ a{
     border-radius: 0.8rem;
 }
 
-#value{
+#value left{
     height: 100vh;
+    background-image: url('https://www.pexels.com/photo/person-using-laptop-computer-during-daytime-196655/');
     color: white;
     padding: 2rem;
 }
@@ -129,4 +129,18 @@ a{
 
 #value p{
     color: rgba(255, 255, 255, 0.493);
+}
+
+
+#elements {
+    background: linear-gradient( rgb(236, 65, 196), rgba(83, 71, 197, 0.903));
+}
+
+.heading {
+    width: 50rem;
+}
+
+.card{
+    background-color: #13131360;
+    border: solid 1.5px white;
 }
